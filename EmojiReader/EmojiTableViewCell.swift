@@ -8,7 +8,7 @@
 import UIKit
 
 class EmojiTableViewCell: UITableViewCell {
-
+    
     @IBOutlet weak var emojiLabel: UILabel!
     @IBOutlet weak var namelabel: UILabel!
     @IBOutlet weak var descriptionLabel: UILabel!
@@ -21,5 +21,5 @@ class EmojiTableViewCell: UITableViewCell {
         self.namelabel.text = object.name
         self.descriptionLabel.text = object.decsription
     }
-
+    
 }
